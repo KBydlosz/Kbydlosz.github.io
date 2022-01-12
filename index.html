@@ -2,35 +2,111 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=
     , initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <div id="container">
-        <nav>
-            <div class="heading">
-                <h1>Nav Bar</h1>
-            </div>
-            <ul class="nav-links">
-                <li> <a class="active" href="index.html">Index</a></li>
-                <li> <a href="pages/home.html">Home</a></li>
-                <li> <a href="pages/about.html">About</a></li>
-                <li> <a href="pages/contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="body-text">
-            <h1> Index Page</h1>
+  <div id="container">
+    <div class="navbar">
+      <a href="index.html">
+        <img id="logo" src="images/logo.png" height="60px" alt="logo">
+      </a>
+      <div class="dropdown">
+        <button class="dropbtn">About
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="pages/history.html">History</a>
+          <a href="pages/staff.html">Staff</a>
         </div>
+      </div>
+      <a href="pages/news.html">News</a>
+      <a href="pages/events.html">Events</a>
+      <a href="pages/store.html">Store</a>
+      <a href="pages/contact.html">Contact</a>
+    </div>
+    <div class="dflexwrapcenter">
+      <div>
+        <h1>Welcome to RS-tech PC</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet facere autem ea eaque natus pariatur ut
+          tempora sed explicabo, sit ratione laboriosam hic blanditiis perspiciatis fugiat doloribus voluptatem.
+          Dolorem, tempore.</p>
+      </div>
+      <img id="logo" src="images/blue.jpg" alt="logo">
+    </div>
+    <div class="dflexwrapcenter">
+      <img id="logo" src="images/blue.jpg" alt="logo">
+      <div>
+        <h1>Laptop service</h1>
+        <p>
+          We can repair any notebook, ultrabook and netbook model. We will remove all defects and bring your laptop back
+          to life. You won't believe a laptop can perform this well. Take care of your equipment, let yourself be
+          surprised and check what services we provide!
 
-        
+        </p>
+      </div>
+    </div>
+    <div style="background-color: #1064e3db;" class="dflexwrapcenter">
+      <h2 style="align-self: center; padding: 10px; margin: 10px; margin: 10px;">Sign Up For Our Newsletter</h2>
+      <input style="width: 400px; height: 50px; align-self: center;margin: 10px;" type="text" name="firstname"
+        placeholder="Your name..">
+      <input style="width: 100px; height: 50px; align-self: center;margin: 10px;" type="submit" value="Submit">
+      </form>
     </div>
 
-
+    <div style="display: flex;flex-wrap: wrap; justify-content: center;">
+      <div class="cardHome">
+        <img src="images/blue.jpg" alt="Avatar">
+        <div class="containerCard">
+          <h4><b>Lorem ipsum dolor sit amet.</b></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum reiciendis quam quis consequuntur,
+            aperiam iusto neque tempora numquam mollitia doloremque.</p>
+          <button class="button button3"><a href="pages/comingSoon.html">Read More</a></button>
+        </div>
+      </div>
+      <div class="cardHome">
+        <img src="images/blue.jpg" alt="Avatar">
+        <div class="containerCard">
+          <h4><b>Lorem ipsum dolor sit amet.</b></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum reiciendis quam quis consequuntur,
+            aperiam iusto neque tempora numquam mollitia doloremque.</p>
+          <button class="button button3"><a href="pages/comingSoon.html">Read More</a></button>
+        </div>
+      </div>
+      <div class="cardHome">
+        <img src="images/blue.jpg" alt="Avatar">
+        <div class="containerCard">
+          <h4><b>Lorem ipsum dolor sit amet.</b></h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum reiciendis quam quis consequuntur,
+            aperiam iusto neque tempora numquam mollitia doloremque.</p>
+          <button class="button button3"><a href="pages/comingSoon.html">Read More</a></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <footer>
+    <div class="footer-content">
+      <h3>code opacity</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, expedita.</p>
+      <ul class="socials">
+        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+        <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <p>copyright &copy;2022</p>
+    </div>
+  </footer>
 </body>
 
 </html>
